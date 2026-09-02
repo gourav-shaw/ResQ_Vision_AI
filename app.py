@@ -10,7 +10,7 @@ def load_model():
 
 model = load_model()
 
-st.title("ResQ Vision AI — Disaster Scenario Prototype")
+st.title("ResQ Vision AI — Disaster Imagery Analysis")
 st.write("YOLO11n model trained on the C2A dataset for human detection in disaster imagery.")
 
 conf = st.slider("Confidence threshold", 0.05, 0.9, 0.25, 0.05)

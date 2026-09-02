@@ -2,7 +2,7 @@ import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
 
-st.set_page_config(page_title="C2A Human Detection", layout="centered")
+st.set_page_config(page_title="ResQ Vision AI", layout="centered")
 
 @st.cache_resource
 def load_model():
@@ -10,7 +10,7 @@ def load_model():
 
 model = load_model()
 
-st.title("C2A Human Detection — Disaster Scenario Prototype")
+st.title("ResQ Vision AI — Disaster Scenario Prototype")
 st.write("YOLO11n model trained on the C2A dataset for human detection in disaster imagery.")
 
 conf = st.slider("Confidence threshold", 0.05, 0.9, 0.25, 0.05)

@@ -55,7 +55,7 @@ A trained [YOLO11x](https://github.com/ultralytics/ultralytics) model is deploye
 ## Running Locally
 
 ```bash
-git clone https://github.com/yourusername/resq_vision_ai.git
+git clone https://github.com/gourav-shaw/ResQ_Vision_AI.git
 cd resq_vision_ai
 pip install -r requirements.txt
 streamlit run app.py
